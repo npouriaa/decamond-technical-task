@@ -1,0 +1,8 @@
+@import "../global/mixins";
+
+.authContainer {
+  height: 100svh;
+  width: 100%;
+  @include d-flex(center, center);
+  background-color: $bg-gray;
+}

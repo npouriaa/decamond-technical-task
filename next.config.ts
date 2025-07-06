@@ -3,7 +3,7 @@ import type { NextConfig } from "next";
 const nextConfig: NextConfig = {
   /* config options here */
   sassOptions: {
-    additionalData: `$custom: red;`,
+    additionalData: `$primary-blue: #3164f4; $bg-gray: #ededed;`,
   },
 };
 

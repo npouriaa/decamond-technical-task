@@ -1,0 +1,11 @@
+@mixin d-flex($justify, $align) {
+  display: flex;
+  justify-content: $justify;
+  align-items: $align;
+}
+
+@mixin media($size) {
+  @media (min-width: $size) {
+    @content;
+  }
+}
